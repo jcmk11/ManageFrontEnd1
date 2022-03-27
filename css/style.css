@@ -6,8 +6,9 @@
 
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 65px 165px 65px 165px;
 }
 
 header ul{
@@ -20,7 +21,6 @@ header ul li{
 }
 
 /* ------------------hasta aca el header -------------------------------*/
-
 /* ------------------ cominezo main -------------------------------*/
 
 
@@ -28,18 +28,40 @@ section.portada{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 39px 165px 99px 165px;
 }
 
 section.objetivos{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 2px 165px 2px 165px;
+}
+
+div.objetivo{
+    display: flex;
+    flex-direction: row;
+}
+
+.objetivo h3{
+    background-color: #F3603B;
+    color: white;
+    border-radius: 50px;
+    width: 69px;
+    height: 43px;
+    padding: 10px 25px;
 }
 
 section.card{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 99px 71px 0px 71px;
+    align-items: center;
+}
+
+section.card>h2{
+    margin-bottom: 74px;
 }
 
 section .cards{
@@ -48,16 +70,107 @@ section .cards{
     justify-content:space-around;
 }
 
+article.card1{
+    height: 253.5px;
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    margin: 0px 50px 30px 50px;
+    align-items: center;
+}
+
+article.card1>img{
+    width: 70px;
+    height: 70px;
+}
+
+article.card1>h3{
+    margin: 21px 0px;
+}
+
+article.card1>p{
+    padding: 2px 21px 38.5px 21px;
+}
+
+button{
+    width: 134px;
+    height: 44px;
+    background-color: #F3603B;
+    color: white;
+    border-radius: 50px;
+}
+
 section.simplify{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 180px;
+    padding: 64px 165px;
+    background-color: #F3613C;
 }
 
+section.simplify h2{
+    color: white;
+}
+
+.simplify>button{
+    width: 134px;
+    height: 44px;
+    background-color: white;
+    color: #F3613C;
+    border-radius: 50px;
+}
+
+
 /* ------------------ Hasta aca el main -------------------------------*/
+/* ------------------ aca el Footer -------------------------------*/
+
 
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 67px 165px 53px 165px;
+    background-color: #1E1E26;
 }
+
+footer section.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer section.redes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    margin-top: 66px;
+    color: white;
+}
+
+footer section.enlaces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+footer section.enlaces>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer section.formulario input{
+    border-radius: 50px;
+    width: 201px;
+    height: 44px;
+}
+
+section.formulario p{
+    color: #8C8C94;
+    margin-top: 73px;
+}
+/* ------------------ Hasta aca el fotter -------------------------------*/
+/* ------------------  aca el Query -------------------------------*/
