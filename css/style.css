@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;}
+    margin: 0;
+}
 
     /* ------------------comienzo header -------------------------------*/
 
@@ -32,7 +33,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 65px 165px 65px 165px;
+    padding: 65px 11.78% 65px 11.78%;
 }
 
 header ul{
@@ -59,7 +60,7 @@ section.portada{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 39px 165px 99px 165px;
+    margin: 39px 11.78% 99px 11.78%;
 }
 
 .informacion{
@@ -77,14 +78,14 @@ section.objetivos{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2px 165px 2px 165px;
+    padding: 2px 11.78% 2px 11.78%;
 }
 
 section.objetivos article.different{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 30px;
+    margin: 0 30px 0 0;
 }
 
 
@@ -183,7 +184,7 @@ section.simplify{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 180px;
-    padding: 64px 165px;
+    padding: 64px 11.78%;
     background-color: #F3613C;
 }
 
@@ -208,7 +209,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 67px 165px 53px 165px;
+    padding: 67px 11.78% 53px 11.78%;
     background-color: #1E1E26;
 }
 
@@ -265,7 +266,125 @@ footer a{
 /* ------------------ Hasta aca el fotter -------------------------------*/
 /* ------------------  aca el Query -------------------------------*/
 
-/*Mobile: 375px*/
+@media (max-width: 375px){
+
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center
+    }
+
+    header{
+        width 100%;
+    }
+    header ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    header button{
+        display: none;
+    }
+    section.portada{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin: 39px 11.78% 99px 11.78%;
+    }
+    section.portada article img{
+        height: 100%;
+        width: 100%;
+    }
+
+    section.portada p{
+        text-align: center;
+        width: 100%;
+    }
+
+    article.informacion button{
+        margin: 0 25% ;
+    }
+
+    section.objetivos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.objetivos h2{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    section.objetivos p{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.card article.card2{
+        display: none;
+    }
+
+    article.card1{
+        /*height: 253.5px;*/
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+
+    section.simplify{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 180px;
+        padding: 64px 11.78%;
+        background-color: #F3613C;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 67px 11.78% 53px 11.78%;
+        background-color: #1E1E26;
+        position: relative;
+    }
+    
+    footer section.formulario button{
+        width: 75px;
+        height: 44px;
+        background-color: #F3603B;
+        color: white;
+        border-radius: 50px;
+    }
+    section.formulario p{
+        font-size: 13px;
+        position: absolute;
+        color: #8C8C94;
+        margin-top: 73px;
+        text-align: center;
+        bottom: 30px;
+        right: 70px;
+    }
+
+    footer section.redes{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+}
+
+/*Mobile: 375px Desktop: 1440px*/
 /*Font size: 16px*/
 
 /*- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
