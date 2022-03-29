@@ -346,7 +346,7 @@ footer a{
         padding: 9px 0px 18px 0px;
         background-color: rgb(255, 239, 234);
         font-size: 11.2px;
-        padding: 1.5px 50px;
+        padding: 14.5px 50px;
         position: relative;
         top: 0px;
         left: 21px;
@@ -354,7 +354,6 @@ footer a{
         width: 100%;
         height: 43px;
         text-align: center;
-        align-items: center;
      }
      .objetivo>div.text p{
     color: #B3B2B7;
