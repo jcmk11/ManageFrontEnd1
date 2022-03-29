@@ -473,3 +473,204 @@ footer a{
 
 /*- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
 - Weights: 400, 500, 700 */
+
+/*segundo query ignorar */
+
+@media (max-width: 600px){
+
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center
+    }
+
+    header{
+        width 100%;
+    }
+    header ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    header button{
+        display: none;
+    }
+    section.portada{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin: 39px 11.78% 99px 11.78%;
+    }
+    section.portada article img{
+        height: 100%;
+        width: 100%;
+    }
+
+    section.portada p{
+        text-align: center;
+        width: 100%;
+    }
+
+    article.informacion button{
+        margin: 0 25% ;
+    }
+
+    section.objetivos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.objetivos h2{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    section.objetivos p{
+        width: 100%;
+        height: 200px;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .objetivo h5{
+        background-color: #F3603B;
+        color: white;
+        border-radius: 50px;
+        width: 69px;
+        height: 43px;
+        padding: 10px 25px;
+        margin: 0px 23px 0px 0px;
+        position: absolute;
+    }
+
+    .objetivo{
+        position: relative;
+        width: 100%;
+    }
+
+    .objetivo>div.text h4{
+        padding: 9px 0px 18px 0px;
+        background-color: rgb(255, 239, 234);
+        font-size: 11.2px;
+        padding: 14.5px 50px;
+        position: relative;
+        top: 0px;
+        left: 21px;
+        z-index: -1;
+        width: 100%;
+        height: 43px;
+        text-align: center;
+     }
+     .objetivo>div.text p{
+    color: #B3B2B7;
+}
+
+    section.card article.card2{
+        display: none;
+    }
+
+    section.card{
+        margin-top: 0;
+    }
+    section.card h3{
+        font-size: 25px;
+    }
+
+    article.card1{
+        /*height: 253.5px;*/
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+
+    section.simplify{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 180px;
+        padding: 64px 11.78%;
+        background-color: #F3613C;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 46px 0 53px 0;
+        background-color: #1E1E26;
+        position: relative;
+    }
+    
+    footer section.formulario button{
+        width: 70px;
+        height: 44px;
+        background-color: #F3603B;
+        color: white;
+        border-radius: 50px;
+    }
+    section.formulario p{
+        font-size: 13px;
+        position: absolute;
+        color: #8C8C94;
+        text-align: center;
+        bottom: 30px;
+        right: 70px;
+        padding-top: 50px;
+    }
+
+    footer section.redes{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 122px;
+    }
+
+    footer section.redes img{
+        width: 50%;
+        position: absolute;
+        bottom: 75px;
+    }
+
+    footer section.redes ul{
+        width: 100%;
+        font-size: 30px;
+        position: absolute;
+        bottom: 115px;
+        padding: 0 40px;
+    }
+
+    footer section.redes ul li{
+      padding: 30px 15px;
+    }
+
+    footer section.enlaces>ul li{
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    footer section.enlaces>ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 0 30px 0;
+    }
+
+    footer section.enlaces{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+    }
+
+}
