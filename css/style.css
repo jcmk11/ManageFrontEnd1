@@ -8,6 +8,10 @@
 body{
    font-family: 'Be Vietnam Pro', sans-serif;
    font-size: 16px;
+   background-image: url("../img/bg-tablet-pattern.svg"), url("../img/bg-tablet-pattern.svg");
+   background-repeat: no-repeat;
+   background-position: left 110% bottom 110%, right 150% top 65%;
+
 }
 
 h1{
