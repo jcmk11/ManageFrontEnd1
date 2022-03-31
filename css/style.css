@@ -17,6 +17,7 @@ body{
 h1{
     font-weight: 700;
     font-size: 58px;
+    width: 439px;
 }
 
 h2{
@@ -81,7 +82,7 @@ header div.MenuMobil:hover{
 
 section.portada{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 39px 11.78% 99px 11.78%;
 }
@@ -90,11 +91,12 @@ section.portada{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 370px;
+    height: 453px;
 }
 
 .informacion>p{
-    margin: 28px 89px 28px 0;
+    padding: 28px 0;
+    width: 375px;
 }
 
 section.objetivos{
@@ -307,6 +309,9 @@ footer a{
     header div.MenuMobil{
         display: none;
     }
+    section.card>div.slide{
+        display: none;
+    }
 }
 
 @media (max-width: 500px){
@@ -314,11 +319,17 @@ footer a{
     h1{
         font-weight: 700;
         font-size: 30px;
-        text-align: center
+        text-align: center;
+        width: 100%;    
+    }
+    
+    .informacion>p{
+        margin: 28px 89px 28px 0;
+        width: 100%;
     }
 
     header{
-        width 100%;
+        width: 100%;
     }
     header ul{
         display: flex;
@@ -370,6 +381,18 @@ footer a{
         padding: 10px;
     }
 
+    section.objetivos article.different{
+        margin: 0 0 0 0;
+    }
+
+    article.different p{
+        margin: 15px 0px 0px 0px;
+        color: #B3B2B7;
+        text-align: center;
+        line-height: 30px;
+        padding: 20px;
+    }
+
     .objetivo h5{
         background-color: #F3603B;
         color: white;
@@ -401,6 +424,8 @@ footer a{
      }
      .objetivo>div.text p{
     color: #B3B2B7;
+    font-size: 13px;
+    line-height: 30px;
 }
 
     section.card article.card2{
@@ -425,12 +450,17 @@ footer a{
         background-color: #FAFAFA;
     }
 
+    section.card>div.slide{
+        color: #F3603B;
+        font-size: 10px;
+    }
+
     section.simplify{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-top: 180px;
+        margin-top: 50px;
         padding: 64px 11.78%;
         background-color: #F3613C;
     }
@@ -521,8 +551,5 @@ footer a{
 }
 
 /*Mobile: 375px Desktop: 1440px*/
-/*Font size: 16px*/
 
-/*- Family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam)
-- Weights: 400, 500, 700 */
-/*atrubuto name o mail en el imput de formulario */
+
